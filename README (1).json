@@ -1,0 +1,63 @@
+{
+  "company": "NanaBluTech AI Solutions LLC",
+  "description": "AI-powered systems, digital products and automation for entrepreneurs.",
+  "mission": "Turn ideas into products, automation systems and scalable businesses.",
+  "subdivisions": [
+    {
+      "name": "NanaBlu Digitals LLC",
+      "role": "Digital downloads division",
+      "offerings": ["templates", "planners", "prompt packs", "PLR/MRR products"]
+    },
+    {
+      "name": "Blu AI Systems",
+      "role": "Automation & SaaS division",
+      "offerings": ["AI workflows", "custom mini-apps", "business systems"]
+    },
+    {
+      "name": "AIMop",
+      "role": "AI platform for cleaning businesses",
+      "offerings": ["AI scheduling", "customer management", "operations automation"]
+    }
+  ],
+  "digital_product_library": {
+    "items": [
+      {"category": "Instagram Stories", "quantity": 100},
+      {"category": "Lightroom Presets", "quantity": 2000},
+      {"category": "Business Card Templates", "quantity": 600},
+      {"category": "Mockups", "quantity": 1000},
+      {"category": "Faceless Reel Videos", "quantity": 800},
+      {"category": "T-Shirt Designs", "quantity": 2000},
+      {"category": "CV/Resume Templates", "quantity": 300},
+      {"category": "Planners", "quantity": 120},
+      {"category": "Journal Pages", "quantity": 800},
+      {"category": "Canva Templates", "quantity": 250}
+    ],
+    "master_resell_rights": true,
+    "notes": "Collection compiled with help from claude.ai and other generative AI tools."
+  },
+  "repositories": [
+    {
+      "name": "generative-ai",
+      "url": "https://github.com/NanaBluTech25/generative-ai",
+      "description": "Experiments and examples with generative models."
+    },
+    {
+      "name": "prompt-engineering-portfolio",
+      "url": "https://github.com/NanaBluTech25/prompt-engineering-portfolio",
+      "description": "Showcase of prompt engineering projects."
+    },
+    {
+      "name": "Prompt-Engineering-Guide",
+      "url": "https://github.com/NanaBluTech25/Prompt-Engineering-Guide",
+      "description": "Curated resources and guides for prompt engineering."
+    },
+    {
+      "name": "service-desk-gpt-coach",
+      "url": "https://github.com/NanaBluTech25/service-desk-gpt-coach",
+      "description": "AI agent that helps service desk teams."
+    }
+  ],
+  "contact": {
+    "email": "hello@nanablutech.com"
+  }
+}
