@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Life Organization Toolkit</title>
+<style>
+body { font-family: Arial; padding: 20px; max-width: 700px; margin: auto; }
+input { width: 100%; padding: 8px; margin: 5px 0; }
+button { padding: 10px 15px; }
+li { margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<h1>Life Organization Toolkit</h1>
+
+<input type="text" id="task" placeholder="Enter a task">
+<button onclick="addTask()">Add Task</button>
+
+<ul id="tasks"></ul>
+
+<script>
+function addTask() {
+  let task = document.getElementById('task').value;
+  if(task.trim() !== "") {
+    let li = document.createElement('li');
+    li.textContent = task;
+    document.getElementById('tasks').appendChild(li);
+    document.getElementById('task').value = "";
+  }
+}
+</script>
+</body>
+</html>
